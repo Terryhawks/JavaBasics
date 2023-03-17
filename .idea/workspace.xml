@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2047ed3-5007-49b1-9ec4-04c989bf7444" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/TerryHawk/Arithmetics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/TerryHawk/Data_Types.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/TerryHawk/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e2047ed3-5007-49b1-9ec4-04c989bf7444" name="Changes" comment="Saving This &quot;Program&quot; about the basics of Java.&#10;&#10;Created following Kaupenjoe" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +60,29 @@
       <option name="presentableId" value="Default" />
       <updated>1679045817029</updated>
     </task>
+    <task id="LOCAL-00001" summary="Saving This &quot;Program&quot; about the basics of Java.&#10;&#10;Created following Kaupenjoe">
+      <created>1679054253442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679054253442</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Saving This &quot;Program&quot; about the basics of Java.&#10;&#10;Created following Kaupenjoe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Saving This &quot;Program&quot; about the basics of Java.&#10;&#10;Created following Kaupenjoe" />
   </component>
 </project>
