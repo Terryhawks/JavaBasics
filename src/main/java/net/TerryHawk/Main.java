@@ -37,6 +37,9 @@ public class Main {
         System.out.println();
 
         //I/O
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("ps: Enter: Main.java");
+        System.out.println("Alright, Moving on to:");
         System.out.println("System.out.println(\"Inputs & Outputs.\");");
         System.out.println("System.out.println(\"\");");
         System.out.println("System.out.println(\"Outputs\");");
@@ -44,7 +47,6 @@ public class Main {
         System.out.println("System.out.println(\"That's an Output.\");");
         System.out.println("System.out.println();");
         System.out.println("System.out.println(\"Inputs\");");
-        Scanner scanner = new Scanner(System.in);
         System.out.println("System.out.println(\"Scanner scanner = new Scanner(System.in);\");");
         System.out.println("System.out.println(\"With this Code, you can get an input.\");");
         System.out.println("System.out.println(\"Input your Name?\");");
@@ -74,13 +76,13 @@ public class Main {
         System.out.println("The highest value between x&y: " + counting.Math_max);
         System.out.println("Absolute Value of y-x: " + counting.Math_abs);
 
-        //Separating Maths Section and Reassigning Values Section
+        // Separating Maths Section and Reassigning Values Section
         System.out.println();
         System.out.println(counting.linebreak);
         System.out.println();
 
         //Assigning Values.
-        System.out.println("ps: Enter: Main.java");
+        System.out.println("ps: Re-Enter: Main.java");
         System.out.println("Assigning Values.");
         System.out.println("Please Input the X Value.");
         int x = Integer.parseInt(scanner.nextLine());
@@ -95,5 +97,77 @@ public class Main {
         x *= y; System.out.println("x *= y -> " + x);
         x /= y; System.out.println("x /= y -> " + x);
         x %= y; System.out.println("x %= y -> " + x);
+        x++; System.out.println("x++ -> " + x);
+        x--; System.out.println("x-- -> " + x);
+
+        // Separating Reassigning Values Section and Boolean Section
+        System.out.println();
+        System.out.println(counting.linebreak);
+        System.out.println();
+
+        //Booleans, & Comparison
+        System.out.println("Now, moving on, to Booleans.");
+        System.out.println("Did you like the Video?");
+        boolean likedTheVideo = scanner.nextBoolean();
+        System.out.println("Did you comment?");
+        boolean commented = scanner.nextBoolean();
+        System.out.println("Liked the Video: " + likedTheVideo);
+        System.out.println("Commented: " + commented);
+        System.out.println("Now, Give me a number. 1-100. Maybe, your latest test's Score?");
+        int yourScore = scanner.nextInt();
+        boolean passedClass = yourScore >= 72;
+        System.out.println("\"boolean passedClass = yourScore >= 72;\"");
+        System.out.println("This code, returns a boolean which is " + passedClass);
+        System.out.println("It only does if your score passes the minimum score.");
+        boolean hasPerfectScore = yourScore == 100;
+        System.out.println("\"boolean hasPerfectScore = yourScore == 100;\"");
+        System.out.println("This code, instead returns a boolean which is " + hasPerfectScore);
+        System.out.println("It only does if your score is exactly 100.");
+        System.out.println(counting.linebreak);
+        System.out.println("\"boolean failedClass = passedClass == false;\"");
+        System.out.println("\"boolean failedClass = !passedClass;\"");
+        boolean failedClass = !passedClass; // ! = Negating.
+        System.out.println("This Code, is basically the same. ! in boolean terms, means negating.");
+        System.out.println("Negating, means taking whatever the input is, and reversing it.");
+        System.out.println("oh, also, failedClass = " + failedClass);
+
+        // Separating Boolean Section and Logical Operations Section
+        System.out.println();
+        System.out.println(counting.linebreak);
+        System.out.println();
+
+        //Logical Operations
+        System.out.println("Alright, now, we're moving on to Logical Operations");
+        System.out.println("Returning to the boolean");
+        System.out.println("We're adding another boolean for this Section.");
+        System.out.println("Did you dislike the Video?");
+        boolean dislikedTheVideo = scanner.hasNextBoolean();
+        System.out.println("And previously, we had these booleans.");
+        System.out.println("Liked the Video = " + likedTheVideo);
+        System.out.println("Commented = " + commented);
+        System.out.println("There are 3 Logical operators we can apply to Booleans.");
+        System.out.println("&& (And)");
+        System.out.println("|| (Or)");
+        System.out.println("! (Not)");
+        boolean superFan = likedTheVideo && commented;
+        System.out.println("boolean superFan = likedTheVideo && commented; //" + superFan);
+        System.out.println("This boolean, is True only if you Liked (Boolean A == True) and Commented (Boolean B == True).");
+        boolean fan = likedTheVideo || commented;
+        System.out.println("boolean fan = likedTheVideo || commented; //" + fan);
+        System.out.println("This boolean, is True if you Liked (Boolean A == True) and/or Commented (Boolean B == True).");
+        boolean hater = !fan;
+        System.out.println("boolean hater = !fan; //" + hater);
+        System.out.println("Meanwhile, This boolean, is True only if the boolean fan is false.");
+        boolean superHater = hater && dislikedTheVideo;
+        System.out.println("boolean superHater = hater && dislikedTheVideo; //" + superHater);
+        System.out.println("Lastly, This boolean, is True only if the boolean hater is true, and you disliked (Boolean C == false).");
+
+        // Separating Logical Operations Section and If Statements Section
+        System.out.println();
+        System.out.println(counting.linebreak);
+        System.out.println();
+
+        //If Statements
+        System.out.println("We're getting into If Statements.");
     }
 }
